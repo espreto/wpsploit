@@ -13,10 +13,10 @@ For details, check the official documentation of metasploit talking about ["Load
 
 All modules will be created based on [WPScan Vulnerability Database - WPVDB] (https://wpvulndb.com/).
 
-The WPSploit is released under a MIT license. See LICENSE for more details.
+
 
 The public GitHub source repository can be found at:
- https://github.com/espreto/wpsploit
+https://github.com/espreto/wpsploit
 
 Questions and suggestions can be sent to:
  robertoespreto[at]gmail.com
@@ -24,9 +24,9 @@ Questions and suggestions can be sent to:
 Contributing
 --
 1. Fork it
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
+2. Create your feature branch (```git checkout -b my-new-feature```)
+3. Commit your changes (```git commit -am 'Add some feature'```)
+4. Push to the branch (```git push origin my-new-feature```)
 5. Create new Pull Request
 
 To Do:
