@@ -87,13 +87,8 @@ class Metasploit4 < Msf::Auxiliary
 
     if res.code == 200 && res.body =~ /#{xss}/
       print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"TheCartPress 1.3.8.2\" plugin for Wordpress")
-      report_vuln(
-        host: rhost,
-        port: rport,
-        proto: 'tcp',
-        name: 'Cross-Site Scripting in TheCartPress 1.3.8.2 for Wordpress',
-        refs: references
-      )
+      p = store_local('wp_thecartpress.http', 'text/html', res.body, "#{xss}")
+      print_good("Save in: #{p}")
     else
       print_error("#{peer} - Failed, maybe the target isn't vulnerable.")
     end
