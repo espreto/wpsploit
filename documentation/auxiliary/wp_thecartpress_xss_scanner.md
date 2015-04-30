@@ -85,10 +85,14 @@ msf auxiliary(wp_thecartpress_xss_scanner) > check
 [*] Checked 1 of 1 hosts (100% complete)
 msf auxiliary(wp_thecartpress_xss_scanner) > run
 
-[*] 192.168.1.31:80 - Trying to login as espreto
-[+] 192.168.1.31:80 - Login successful
-[+] 192.168.1.31:80 - Vulnerable to Cross-Site Scripting the "TheCartPress 1.3.8.2" plugin for Wordpress
+[*] 10.10.10.20:80 - Trying to login as espreto
+[+] 10.10.10.20:80 - Login successful
+[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the "TheCartPress 1.3.8.2" plugin for Wordpress
+[+] Save in: /home/espreto/.msf4/local/VMJNlBEi.html
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
-msf auxiliary(wp_thecartpress_xss_scanner) > 
+msf auxiliary(wp_thecartpress_xss_scanner) > firefox /home/espreto/.msf4/local/VMJNlBEi.html
 ```
+This will open the browser:
+
+![XSS](/images/wp_thecartpress_xss_scanner.png)
