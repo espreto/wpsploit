@@ -16,7 +16,8 @@ class Metasploit4 < Msf::Auxiliary
       'Name'        => 'WordPress TheCartPress Plugin XSS Scanner',
       'Description' => %q{
       This module attempts to exploit a authenticated Cross-Site Scripting in TheCartPress Plugin for Wordpress,
-      version 1.3.8.2 and likely prior in order if the instance is vulnerable.
+      version 1.3.9 and likely prior in order if the instance is vulnerable. (Tested with TheCartPress 1.3.8.2 version,
+      but 1.3.9 works).
       },
       'Author'      =>
         [
@@ -42,7 +43,7 @@ class Metasploit4 < Msf::Auxiliary
   end
 
   def check
-    check_plugin_version_from_readme('thecartpress', '1.3.9')
+    check_plugin_version_from_readme('thecartpress')
   end
 
   def user
@@ -86,7 +87,7 @@ class Metasploit4 < Msf::Auxiliary
     end
 
     if res.code == 200 && res.body =~ /#{xss}/
-      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"TheCartPress 1.3.8.2\" plugin for Wordpress")
+      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"TheCartPress 1.3.9\" plugin for Wordpress")
       p = store_local('wp_thecartpress.http', 'text/html', res.body, "#{xss}")
       print_good("Save in: #{p}")
     else
