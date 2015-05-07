@@ -40,6 +40,10 @@ class Metasploit4 < Msf::Auxiliary
     )
   end
 
+  def check
+    check_plugin_version_from_readme('wp-business-intelligence-lite', '1.6.2')
+  end
+
   def run_host(ip)
     start_time = Time.now
     timeout = datastore['SLEEP']
