@@ -83,3 +83,4 @@ msf auxiliary(wp_visual_form_builder_xss_scanner) > firefox /home/espreto/.msf4/
 ```
 This will open the browser:
 
+![XSS](../images/wp_visual_form_builder_xss_scanner.jpg)
