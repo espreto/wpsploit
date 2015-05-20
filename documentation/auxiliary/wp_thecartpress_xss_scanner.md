@@ -95,8 +95,5 @@ msf auxiliary(wp_thecartpress_xss_scanner) > firefox /home/espreto/.msf4/local/V
 ```
 This will open the browser:
 
-<<<<<<< HEAD
-!](../images/wp_thecartpress_xss_scanner.png)
-=======
 ![XSS](../images/wp_thecartpress_xss_scanner.png)
->>>>>>> 5533e572915e79306c77fc22ad96182a9b76774a
+
