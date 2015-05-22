@@ -9,17 +9,17 @@ For the use of these modules, you can download them to the directory:
 ```
 # cd ~/.msf4/modules/
 ```
-For details, check the official documentation of metasploit talking about ["Loading External Modules"](https://github.com/rapid7/metasploit-framework/wiki/Loading-External-Modules).
+For details, check the official documentation of metasploit talking about ["Loading External Modules"](https://github.com/rapid7/metasploit-framework/wiki/Loading-External-Modules).</br>
+All modules will be created based on [WPScan Vulnerability Database - WPVDB] (https://wpvulndb.com/).</br></br>
 
-All modules will be created based on [WPScan Vulnerability Database - WPVDB] (https://wpvulndb.com/).
+The public GitHub source repository can be found at:</br>
+https://github.com/espreto/wpsploit</br></br>
 
+Questions and suggestions can be sent to:</br>
+robertoespreto[at]gmail.com</br></br>
+ 
+##### Mentioned in a blog post by Rapid7/Metasploit: ["WordPress Exploitation Extravaganza"](https://community.rapid7.com/Rapid7_BlogPostDetail?id=a111400000AaxKdAAJ).
 
-
-The public GitHub source repository can be found at:
-https://github.com/espreto/wpsploit
-
-Questions and suggestions can be sent to:
- robertoespreto[at]gmail.com
 
 Contributing
 --
