@@ -5,6 +5,9 @@
 This repository is designed for creating and/or porting of specific exploits 
 for Wordpress using metasploit as exploitation tool.
 
+##### Currently:</br>
+24 modules (13 exploits and 11 auxiliaries)
+
 For the use of these modules, you can download them to the directory:
 ```
 # cd ~/.msf4/modules/
