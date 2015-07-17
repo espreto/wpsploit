@@ -8,6 +8,7 @@ for Wordpress using metasploit as exploitation tool.
 ##### Currently:</br>
 24 modules (13 exploits and 11 auxiliaries)
 
+##### Usage:</br>
 For the use of these modules, you can download them to the directory:
 ```
 # cd ~/.msf4/modules/
