@@ -55,7 +55,7 @@ Basic options:
   WP_USER                     yes       A valid username
 
 Description:
-  This module attempts to exploit a Cross-Site Scripting in Youtube 
+  This module attempts to exploit an Authenticated Cross-Site Scripting in Youtube 
   Embed Plugin for Wordpress, version 3.3.2 and likely prior in order 
   if the instance is vulnerable.
 

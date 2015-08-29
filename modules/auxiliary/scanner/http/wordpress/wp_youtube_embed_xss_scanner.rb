@@ -15,7 +15,7 @@ class Metasploit4 < Msf::Auxiliary
     super(update_info(info,
       'Name'        => 'WordPress Youtube Embed XSS Scanner',
       'Description' => %q{
-      This module attempts to exploit a Cross-Site Scripting in Youtube Embed
+      This module attempts to exploit an Authenticated Cross-Site Scripting in Youtube Embed
       Plugin for Wordpress, version 3.3.2 and likely prior in order if the
       instance is vulnerable.
       },
