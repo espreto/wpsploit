@@ -9,6 +9,10 @@
 #### Vulnerable packages*
         
   2.9.21
+
+#### Module
+
+  [wp_ninja_forms_xss_scanner.rb](https://github.com/espreto/wpsploit/blob/master/modules/auxiliary/scanner/http/wordpress/wp_ninja_forms_xss_scanner.rb)
   
 #### Usage:
 
