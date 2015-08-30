@@ -1,10 +1,10 @@
 #### Add Wordpress Plugin Ninja Forms XSS Vulnerability.
 
   Application: Wordpress Plugin 'Ninja Forms' 2.9.21
-  Homepage: https://wordpress.org/plugins/youtube-embed
+  Homepage: https://wordpress.org/plugins/ninja-forms
   Source Code: https://downloads.wordpress.org/plugin/ninja-forms.2.9.21.zip
   References: https://wpvulndb.com/vulnerabilities/8128
-  Active Install: +30.000
+  Active Install: +200.000
 
 #### Vulnerable packages*
         
