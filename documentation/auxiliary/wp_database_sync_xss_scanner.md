@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Database Sync XSS Vulnerability.
+#### Add WordPress Plugin Database Sync XSS Vulnerability.
 
-  Application: Wordpress Plugin 'Database Sync' 0.4
+  Application: WordPress Plugin 'Database Sync' 0.4
   Homepage: https://wordpress.org/plugins/database-sync
   Source Code: https://downloads.wordpress.org/plugin/database-sync.0.4.zip
   References: https://wpvulndb.com/vulnerabilities/8127

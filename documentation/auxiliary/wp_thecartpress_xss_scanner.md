@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin TheCartPress XSS Vulnerability.
+#### Add WordPress Plugin TheCartPress XSS Vulnerability.
 
-  Application: Wordpress Plugin 'TheCartPress' 1.3.8.2
+  Application: WordPress Plugin 'TheCartPress' 1.3.8.2
   Homepage: https://wordpress.org/plugins/thecartpress/
   Source Code: https://downloads.wordpress.org/plugin/thecartpress.1.3.8.2.zip
   References: https://wpvulndb.com/vulnerabilities/7951

@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin April's Super Function Pack XSS Vulnerability.
+#### Add WordPress Plugin April's Super Function Pack XSS Vulnerability.
 
-  Application: Wordpress Plugin 'April's Super Function Pack' 1.4.7
+  Application: WordPress Plugin 'April's Super Function Pack' 1.4.7
   Homepage: https://wordpress.org/plugins/aprils-super-functions-pack/
   Source Code: https://downloads.wordpress.org/plugin/aprils-super-functions-pack.1.4.7.zip
   References: https://wpvulndb.com/vulnerabilities/7068

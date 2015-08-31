@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Source Control File Read Vulnerability.
+#### Add WordPress Plugin Source Control File Read Vulnerability.
 
-  Application: Wordpress Plugin 'Source Control' 3.0.0
+  Application: WordPress Plugin 'Source Control' 3.0.0
   Homepage: https://wordpress.org/plugins/wp-source-control
   Source Code: https://downloads.wordpress.org/plugin/wp-source-control.3.0.0.zip
   References: https://wpvulndb.com/vulnerabilities/7541

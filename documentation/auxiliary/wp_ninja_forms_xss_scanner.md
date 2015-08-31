@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Ninja Forms XSS Vulnerability.
+#### Add WordPress Plugin Ninja Forms XSS Vulnerability.
 
-  Application: Wordpress Plugin 'Ninja Forms' 2.9.21
+  Application: WordPress Plugin 'Ninja Forms' 2.9.21
   Homepage: https://wordpress.org/plugins/ninja-forms
   Source Code: https://downloads.wordpress.org/plugin/ninja-forms.2.9.21.zip
   References: https://wpvulndb.com/vulnerabilities/8128

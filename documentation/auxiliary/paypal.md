@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin PayPal Currency WooCommerce File Read Vulnerability.
+#### Add WordPress Plugin PayPal Currency WooCommerce File Read Vulnerability.
 
-  Application: Wordpress Plugin 'PayPal WooCommerce' 1.3
+  Application: WordPress Plugin 'PayPal WooCommerce' 1.3
   Homepage: https://wordpress.org/plugins/paypal-currency-converter-basic-for-woocommerce/
   Source Code: https://www.exploit-db.com/apps/c0cdc8c17d88b55a4b41f30e7109b36b-paypal-currency-converter-basic-for-woocommerce.zip
   Active Installs (wordpress.org): 600+

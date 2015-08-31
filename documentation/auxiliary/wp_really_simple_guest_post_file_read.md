@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Really Simple Guest Post File Read Vulnerability.
+#### Add WordPress Plugin Really Simple Guest Post File Read Vulnerability.
 
-  Application: Wordpress Plugin 'WP Really Simple Guest Post' 1.0.6
+  Application: WordPress Plugin 'WP Really Simple Guest Post' 1.0.6
   Homepage: https://wordpress.org/plugins/really-simple-guest-post/
   Source Code: https://www.exploit-db.com/apps/8d23d97509aa6f5ddb07baf4af3d83e3-really-simple-guest-post.zip
   Active Installs (wordpress.org): 1,000+

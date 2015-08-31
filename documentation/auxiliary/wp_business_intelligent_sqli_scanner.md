@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Business Intelligence Lite SQL Injection Scanner.
+#### Add WordPress Plugin Business Intelligence Lite SQL Injection Scanner.
 
-  Application: Wordpress Plugin 'Business Intelligence Lite' 1.6.1
+  Application: WordPress Plugin 'Business Intelligence Lite' 1.6.1
   Homepage: https://wordpress.org/plugins/wp-business-intelligence-lite/
   Source Code: https://downloads.wordpress.org/plugin/wp-business-intelligence-lite.1.6.1.zip
   References: https://wpvulndb.com/vulnerabilities/7879

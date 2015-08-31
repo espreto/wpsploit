@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Mobile Edition File Read Vulnerability.
+#### Add WordPress Plugin Mobile Edition File Read Vulnerability.
 
-  Application: Wordpress Plugin 'WP Mobile Edition' 2.2.7
+  Application: WordPress Plugin 'WP Mobile Edition' 2.2.7
   Homepage: https://wordpress.org/plugins/wp-mobile-edition/
   Source Code: https://downloads.wordpress.org/plugin/wp-mobile-edition.2.2.7.zip
   Active Installs (wordpress.org): 5,000+

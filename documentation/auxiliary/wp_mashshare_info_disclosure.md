@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Mashshare Information Disclosure Vulnerability.
+#### Add WordPress Plugin Mashshare Information Disclosure Vulnerability.
 
-  Application: Wordpress Plugin 'Mashshare' 2.3.0
+  Application: WordPress Plugin 'Mashshare' 2.3.0
   Homepage: https://wordpress.org/plugins/mashshare/
   Source Code: https://downloads.wordpress.org/plugin/mashsharer.2.3.0.zip
   Active Installs: 20,000+

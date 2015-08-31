@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Youtube Embed XSS Vulnerability.
+#### Add WordPress Plugin Youtube Embed XSS Vulnerability.
 
-  Application: Wordpress Plugin 'Youtube Embed' 3.3.2
+  Application: WordPress Plugin 'Youtube Embed' 3.3.2
   Homepage: https://wordpress.org/plugins/youtube-embed
   Source Code: https://downloads.wordpress.org/plugin/youtube-embed.3.3.2.zip
   References: https://wpvulndb.com/vulnerabilities/8163

@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Mobile Pack Information Disclosure Vulnerability.
+#### Add WordPress Plugin Mobile Pack Information Disclosure Vulnerability.
 
-  Application: Wordpress Plugin 'Mobile Pack' 2.1.2
+  Application: WordPress Plugin 'Mobile Pack' 2.1.2
   Homepage: https://wordpress.org/plugins/wordpress-mobile-pack/
   Source Code: https://downloads.wordpress.org/plugin/wordpress-mobile-pack.2.1.2.zip
   Active Installs (wordpress.org): 30,000+

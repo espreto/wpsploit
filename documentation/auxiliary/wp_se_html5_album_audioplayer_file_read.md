@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin SE HTML5 Album Audio Player File Read Vulnerability.
+#### Add WordPress Plugin SE HTML5 Album Audio Player File Read Vulnerability.
 
-  Application: Wordpress Plugin "SE HTML5 Album Audio Player" 1.1.0
+  Application: WordPress Plugin "SE HTML5 Album Audio Player" 1.1.0
   Homepage: https://wordpress.org/plugins/se-html5-album-audio-player/
   Source Code: https://downloads.wordpress.org/plugin/se-html5-album-audio-player.1.1.0.zip
   Active Installs (wordpress.org): 400+

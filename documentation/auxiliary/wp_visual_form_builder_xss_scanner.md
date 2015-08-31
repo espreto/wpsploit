@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Visual Form Builder XSS Vulnerability.
+#### Add WordPress Plugin Visual Form Builder XSS Vulnerability.
 
-  Application: Wordpress Plugin 'Visual Form Builder' 2.8.2
+  Application: WordPress Plugin 'Visual Form Builder' 2.8.2
   Homepage: https://wordpress.org/plugins/visual-form-builder/
   Source Code: https://downloads.wordpress.org/plugin/visual-form-builder.2.8.2.zip
   References: https://wpvulndb.com/vulnerabilities/7991

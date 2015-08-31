@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Attachment Export File Download Vulnerability.
+#### Add WordPress Plugin Attachment Export File Download Vulnerability.
 
-  Application: Wordpress Plugin 'WP Attachment Export' 0.2.3
+  Application: WordPress Plugin 'WP Attachment Export' 0.2.3
   Homepage: https://wordpress.org/plugins/wp-attachment-export/
   Source Code: https://downloads.wordpress.org/plugin/wp-attachment-export.0.2.3.zip
   Active Installs (wordpress.org): 1,000+
