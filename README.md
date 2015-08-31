@@ -1,9 +1,9 @@
 ## WPSploit
 
-#### WPSploit - Exploiting Wordpress With Metasploit.
+#### WPSploit - Exploiting WordPress With Metasploit.
 
 This repository is designed for creating and/or porting of specific exploits 
-for Wordpress using metasploit as exploitation tool.
+for WordPress using metasploit as exploitation tool.
 
 ##### Currently:</br>
 36 modules (14 exploits and 22 auxiliaries)
