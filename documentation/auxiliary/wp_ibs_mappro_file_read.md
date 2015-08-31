@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin IBS Mappro File Read Vulnerability.
+#### Add WordPress Plugin IBS Mappro File Read Vulnerability.
 
-  Application: Wordpress Plugin 'WP IBS Mappro' 0.6
+  Application: WordPress Plugin 'WP IBS Mappro' 0.6
   Homepage: https://wordpress.org/plugins/ibs-mappro/
   Source Code: https://downloads.wordpress.org/plugin/ibs-mappro.0.6.zip
   References: https://wpvulndb.com/vulnerabilities/8091

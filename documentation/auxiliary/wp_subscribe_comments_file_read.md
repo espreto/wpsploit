@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Subscribe Comments Auth File Read Vulnerability.
+#### Add WordPress Plugin Subscribe Comments Auth File Read Vulnerability.
 
-  Application: Wordpress Plugin 'Subscribe to Comments' 2.1.2
+  Application: WordPress Plugin 'Subscribe to Comments' 2.1.2
   Homepage: https://wordpress.org/plugins/subscribe-to-comments/
   Source Code: https://downloads.wordpress.org/plugin/subscribe-to-comments.2.1.2.zip
   Active Installs (wordpress.org): 70,000+

@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin April's Super Function Pack XSS Vulnerability.
+#### Add WordPress Plugin April's Super Function Pack XSS Vulnerability.
 
-  Application: Wordpress Plugin 'April's Super Function Pack' 1.4.7
+  Application: WordPress Plugin 'April's Super Function Pack' 1.4.7
   Homepage: https://wordpress.org/plugins/aprils-super-functions-pack/
   Source Code: https://downloads.wordpress.org/plugin/aprils-super-functions-pack.1.4.7.zip
   References: https://wpvulndb.com/vulnerabilities/7068
@@ -51,7 +51,7 @@ Basic options:
 
 Description:
   This module attempts to exploit a Cross-Site Scripting in April's 
-  Super Function Pack Plugin for Wordpress, version 1.4.7 and likely 
+  Super Function Pack Plugin for WordPress, version 1.4.7 and likely 
   prior in order if the instance is vulnerable.
 
 References:
@@ -66,7 +66,7 @@ msf auxiliary(wp_aprils_super_function_xss_scanner) > check
 [*] Checked 1 of 1 hosts (100% complete)
 msf auxiliary(wp_aprils_super_function_xss_scanner) > run
 
-[+] 192.168.1.31:80 - Vulnerable to Cross-Site Scripting the "April's Super Function Pack 1.4.7" plugin for Wordpress
+[+] 192.168.1.31:80 - Vulnerable to Cross-Site Scripting the "April's Super Function Pack 1.4.7" plugin for WordPress
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
 msf auxiliary(wp_aprils_super_function_xss_scanner) > 

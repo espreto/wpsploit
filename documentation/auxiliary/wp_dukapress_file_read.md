@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin DukaPress File Read Vulnerability.
+#### Add WordPress Plugin DukaPress File Read Vulnerability.
 
-  Application: Wordpress Plugin "DukaPress" 2.5.2
+  Application: WordPress Plugin "DukaPress" 2.5.2
   Homepage: https://wordpress.org/plugins/dukapress/
   Source Code: https://downloads.wordpress.org/plugin/dukapress.2.5.2.zip
   Active Installs (wordpress.org): 900+

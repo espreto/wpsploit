@@ -17,7 +17,7 @@ class Metasploit3 < Msf::Auxiliary
       'Description'    => %q{
         This module exploits a directory traversal vulnerability in WordPress Plugin
         "GI-Media Library" version 2.2.2, allowing to read arbitrary files on
-        Wordpress directory.
+        WordPress directory.
       },
       'References'     =>
         [

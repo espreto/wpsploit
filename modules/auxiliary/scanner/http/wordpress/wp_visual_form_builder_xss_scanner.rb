@@ -16,7 +16,7 @@ class Metasploit4 < Msf::Auxiliary
       'Name'        => 'WordPress Visual Form Builder Plugin XSS Scanner',
       'Description' => %q{
       This module attempts to exploit a authenticated Cross-Site Scripting in Visual Form Builder
-      Plugin for Wordpress, version 2.8.2 and likely prior in order if the instance is vulnerable.
+      Plugin for WordPress, version 2.8.2 and likely prior in order if the instance is vulnerable.
       },
       'Author'      =>
         [
@@ -78,7 +78,7 @@ class Metasploit4 < Msf::Auxiliary
     end
 
     if res.code == 200 && res.body =~ /#{xss}/
-      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"Visual Form Builder 2.8.2\" plugin for Wordpress")
+      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"Visual Form Builder 2.8.2\" plugin for WordPress")
       p = store_local('wp_visualform.http', 'text/html', res.body, "#{xss}")
       print_good("Save in: #{p}")
     else

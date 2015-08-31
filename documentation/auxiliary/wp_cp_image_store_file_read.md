@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin CP Image Store File Read Vulnerability.
+#### Add WordPress Plugin CP Image Store File Read Vulnerability.
 
-  Application: Wordpress Plugin 'WP Mobile Edition' 1.0.5
+  Application: WordPress Plugin 'WP Mobile Edition' 1.0.5
   Homepage: https://wordpress.org/plugins/cp-image-store/
   Source Code: https://www.exploit-db.com/apps/b26ab70cd0976df1ecadaffc9c1b54e5-cp-image-store.1.0.5.zip
   Active Installs (wordpress.org): 700+

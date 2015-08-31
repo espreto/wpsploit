@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin GI-Media Library File Read Vulnerability.
+#### Add WordPress Plugin GI-Media Library File Read Vulnerability.
 
-  Application: Wordpress Plugin 'GI-Media Library' 2.2.2
+  Application: WordPress Plugin 'GI-Media Library' 2.2.2
   Homepage: https://wordpress.org/plugins/gi-media-library
   Source Code: https://downloads.wordpress.org/plugin/gi-media-library.2.2.2.zip
   References: https://wpvulndb.com/vulnerabilities/7754
@@ -55,7 +55,7 @@ Basic options:
 Description:
   This module exploits a directory traversal vulnerability in 
   WordPress Plugin "GI-Media Library" version 2.2.2, allowing to read 
-  arbitrary files on Wordpress directory.
+  arbitrary files on WordPress directory.
 
 References:
   https://wpvulndb.com/vulnerabilities/7754

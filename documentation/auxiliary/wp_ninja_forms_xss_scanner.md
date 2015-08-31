@@ -1,6 +1,6 @@
-#### Add Wordpress Plugin Ninja Forms XSS Vulnerability.
+#### Add WordPress Plugin Ninja Forms XSS Vulnerability.
 
-  Application: Wordpress Plugin 'Ninja Forms' 2.9.21
+  Application: WordPress Plugin 'Ninja Forms' 2.9.21
   Homepage: https://wordpress.org/plugins/ninja-forms
   Source Code: https://downloads.wordpress.org/plugin/ninja-forms.2.9.21.zip
   References: https://wpvulndb.com/vulnerabilities/8128
@@ -60,7 +60,7 @@ Basic options:
 
 Description:
   This module attempts to exploit an Authenticated Cross-Site 
-  Scripting in Ninja Forms Plugin for Wordpress, version 2.9.21 and 
+  Scripting in Ninja Forms Plugin for WordPress, version 2.9.21 and 
   likely prior in order if the instance is vulnerable.
 
 References:
@@ -78,7 +78,7 @@ msfdevel 10.10.10.10 shell[s]:0 job[s]:0 msf> auxiliary(wp_ninja_forms_xss_scann
 [*] Checked 1 of 1 hosts (100% complete)
 msfdevel 10.10.10.10 shell[s]:0 job[s]:0 msf> auxiliary(wp_ninja_forms_xss_scanner)  run
 
-[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the Ninja Forms 2.9.21 plugin for Wordpress
+[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the Ninja Forms 2.9.21 plugin for WordPress
 [+] Save in: /home/espreto/.msf4/local/script.html
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
