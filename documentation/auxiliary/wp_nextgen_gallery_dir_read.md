@@ -12,7 +12,7 @@
 
 #### Module
 
-[wp_nextgen_gallery_dir_read.rb]()
+[wp_nextgen_gallery_dir_read.rb](https://github.com/espreto/wpsploit/blob/master/modules/auxiliary/scanner/http/wordpress/wp_nextgen_galley_file_read.rb)
   
 #### Usage:
 
