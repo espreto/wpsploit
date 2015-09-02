@@ -1,9 +1,9 @@
 #### Add WordPress Plugin NextGEN Gallery Auth Directory Traversal Vulnerability.
 
-  Application: WordPress Plugin 'NextGEN Galley' 2.1.7
-  Homepage: https://wordpress.org/plugins/nextgen-gallery/
-  Source Code: https://downloads.wordpress.org/plugin/nextgen-gallery.2.1.7.zip
-  Active Installs (wordpress.org): 1 Million+
+  Application: WordPress Plugin 'NextGEN Galley' 2.1.7</br>
+  Homepage: https://wordpress.org/plugins/nextgen-gallery/</br>
+  Source Code: https://downloads.wordpress.org/plugin/nextgen-gallery.2.1.7.zip</br>
+  Active Installs (wordpress.org): 1 Million+</br>
   References: https://wpvulndb.com/vulnerabilities/8165
 
 #### Vulnerable packages*
