@@ -21,7 +21,7 @@ class Metasploit4 < Msf::Auxiliary
       },
       'Author'      =>
         [
-          'Unknown', # Vulnerability Discovery - Please PR your name here.
+          'David Moore @grajagandev', # Vulnerability Discovery - Please PR your name here.
           'Roberto Soares Espreto <robertoespreto[at]gmail.com>' # Metasploit Module
         ],
       'License'     => MSF_LICENSE,
