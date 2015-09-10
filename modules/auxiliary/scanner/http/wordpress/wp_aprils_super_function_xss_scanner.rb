@@ -16,7 +16,7 @@ class Metasploit4 < Msf::Auxiliary
       'Name'        => 'WordPress April\'s Super Function Pack XSS Scanner',
       'Description' => %q{
       This module attempts to exploit a Cross-Site Scripting in April's Super Function
-      Pack Plugin for Wordpress, version 1.4.7 and likely prior in order if the instance is
+      Pack Plugin for WordPress, version 1.4.7 and likely prior in order if the instance is
       vulnerable.
       },
       'Author'      =>
@@ -55,12 +55,12 @@ class Metasploit4 < Msf::Auxiliary
     end
 
     if res.code == 200 && res.body =~ /#{xss}/
-      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"April's Super Function Pack 1.4.7\" plugin for Wordpress")
+      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"April's Super Function Pack 1.4.7\" plugin for WordPress")
       report_vuln(
         host: rhost,
         port: rport,
         proto: 'tcp',
-        name: 'Cross-Site Scripting in April\'s Super Function Pack 1.4.7 for Wordpress',
+        name: 'Cross-Site Scripting in April\'s Super Function Pack 1.4.7 for WordPress',
         refs: references
       )
     else

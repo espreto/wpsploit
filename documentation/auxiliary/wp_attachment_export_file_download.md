@@ -118,7 +118,7 @@ msf auxiliary(wp_attachment_export_file_download) > run
 >
 
 <channel>
-	<title>Wordpress Bug Hunter</title>
+	<title>WordPress Bug Hunter</title>
 	<link>http://localhost</link>
 	<description>Just another WordPress site</description>
 	<pubDate>Wed, 29 Jul 2015 16:45:07 +0000</pubDate>

@@ -60,7 +60,7 @@ Basic options:
 
 Description:
   This module attempts to exploit an Cross-Site Scripting in Database 
-  Sync Plugin for Wordpress, version 0.4 and likely prior in order if 
+  Sync Plugin for WordPress, version 0.4 and likely prior in order if 
   the instance is vulnerable.
 
 References:
@@ -78,7 +78,7 @@ msfdevel 10.10.10.10 shell[s]:0 job[s]:0 msf> auxiliary(wp_database_sync_xss_sca
 [*] Checked 1 of 1 hosts (100% complete)
 msfdevel 10.10.10.10 shell[s]:0 job[s]:0 msf> auxiliary(wp_database_sync_xss_scanner)  run
 
-[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the Database Sync 0.4 plugin for Wordpress
+[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the Database Sync 0.4 plugin for WordPress
 [+] Save in: /home/espreto/.msf4/local/script.html
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed

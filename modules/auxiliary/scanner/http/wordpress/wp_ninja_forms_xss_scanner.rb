@@ -16,7 +16,7 @@ class Metasploit4 < Msf::Auxiliary
       'Name'        => 'WordPress Ninja Forms XSS Scanner',
       'Description' => %q{
       This module attempts to exploit an Authenticated Cross-Site Scripting in Ninja
-      Forms Plugin for Wordpress, version 2.9.21 and likely prior in order if the
+      Forms Plugin for WordPress, version 2.9.21 and likely prior in order if the
       instance is vulnerable.
       },
       'Author'      =>
@@ -77,7 +77,7 @@ class Metasploit4 < Msf::Auxiliary
     end
 
     if res.code == 200 && res.body.include?("#{xss}")
-      print_good("#{peer} - Vulnerable to Cross-Site Scripting the Ninja Forms 2.9.21 plugin for Wordpress")
+      print_good("#{peer} - Vulnerable to Cross-Site Scripting the Ninja Forms 2.9.21 plugin for WordPress")
       p = store_local(
         'ninjaforms.http',
         'text/html',
