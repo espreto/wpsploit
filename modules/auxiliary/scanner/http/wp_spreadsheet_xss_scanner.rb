@@ -15,7 +15,7 @@ class Metasploit4 < Msf::Auxiliary
     super(update_info(info,
       'Name'        => 'WordPress Spreadsheet Plugin XSS Scanner',
       'Description' => %q{
-      This module attempts to exploit a Cross-Site Scripting in Spreadsheet for Wordpress,
+      This module attempts to exploit a Cross-Site Scripting in Spreadsheet for WordPress,
       version 2.0 and likely prior in order if the instance is vulnerable.
       },
       'Author'      =>
@@ -55,12 +55,12 @@ class Metasploit4 < Msf::Auxiliary
     end
 
     if res.code == 200 && res.body =~ /#{xss}/
-      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"SPreadsheet Plugion 2.0\" plugin for Wordpress")
+      print_good("#{peer} - Vulnerable to Cross-Site Scripting the \"SPreadsheet Plugion 2.0\" plugin for WordPress")
       report_vuln(
         host: rhost,
         port: rport,
         proto: 'tcp',
-        name: 'Cross-Site Scripting in Spreadsheet Plugin 2.0 for Wordpress',
+        name: 'Cross-Site Scripting in Spreadsheet Plugin 2.0 for WordPress',
         refs: references
       )
     else

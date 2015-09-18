@@ -55,7 +55,7 @@ Basic options:
 
 Description:
   This module attempts to exploit a authenticated Cross-Site Scripting 
-  in TheCartPress Plugin for Wordpress, version 1.3.8.2 and likely prior 
+  in TheCartPress Plugin for WordPress, version 1.3.8.2 and likely prior 
   in order if the instance is vulnerable.
 
 References:
@@ -87,7 +87,7 @@ msf auxiliary(wp_thecartpress_xss_scanner) > run
 
 [*] 10.10.10.20:80 - Trying to login as espreto
 [+] 10.10.10.20:80 - Login successful
-[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the "TheCartPress 1.3.8.2" plugin for Wordpress
+[+] 10.10.10.20:80 - Vulnerable to Cross-Site Scripting the "TheCartPress 1.3.8.2" plugin for WordPress
 [+] Save in: /home/espreto/.msf4/local/VMJNlBEi.html
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed

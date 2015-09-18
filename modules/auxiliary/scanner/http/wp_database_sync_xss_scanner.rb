@@ -16,7 +16,7 @@ class Metasploit4 < Msf::Auxiliary
       'Name'        => 'WordPress Database Sync XSS Scanner',
       'Description' => %q{
       This module attempts to exploit an Authenticated Cross-Site Scripting in
-      Database Sync Plugin for Wordpress, version 0.4 and likely prior in order
+      Database Sync Plugin for WordPress, version 0.4 and likely prior in order
       if the instance is vulnerable.
       },
       'Author'      =>
@@ -78,7 +78,7 @@ class Metasploit4 < Msf::Auxiliary
     end
 
     if res.code == 200 && res.body.include?("#{xss}")
-      print_good("#{peer} - Vulnerable to Cross-Site Scripting the Database Sync 0.4 plugin for Wordpress")
+      print_good("#{peer} - Vulnerable to Cross-Site Scripting the Database Sync 0.4 plugin for WordPress")
       p = store_local(
         'wp_databasesync.http',
         'text/html',

@@ -56,7 +56,7 @@ Basic options:
 
 Description:
   This module attempts to exploit an Authenticated Cross-Site Scripting in Youtube 
-  Embed Plugin for Wordpress, version 3.3.2 and likely prior in order 
+  Embed Plugin for WordPress, version 3.3.2 and likely prior in order 
   if the instance is vulnerable.
 
 References:
@@ -86,7 +86,7 @@ msfdevel 192.168.1.55 shell[s]:0 job[s]:0 msf> auxiliary(wp_youtube_embed_xss_sc
 [*] Checked 1 of 1 hosts (100% complete)
 msfdevel 192.168.1.55 shell[s]:0 job[s]:0 msf> auxiliary(wp_youtube_embed_xss_scanner)  run
 
-[+] 192.168.1.63:80 - Vulnerable to Cross-Site Scripting the Youtube Embed 3.3.2 plugin for Wordpress
+[+] 192.168.1.63:80 - Vulnerable to Cross-Site Scripting the Youtube Embed 3.3.2 plugin for WordPress
 [+] Save in: /home/espreto/.msf4/local/80743596.html
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed

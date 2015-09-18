@@ -41,7 +41,7 @@ Basic options:
 
 Description:
   This module attempts to exploit a authenticated Cross-Site Scripting 
-  in Visual Form Builder Plugin for Wordpress, version 2.8.2 and 
+  in Visual Form Builder Plugin for WordPress, version 2.8.2 and 
   likely prior in order if the instance is vulnerable.
 
 References:
@@ -73,7 +73,7 @@ msf auxiliary(wp_visual_form_builder_xss_scanner) > run
 
 [*] 192.168.1.38:80 - Trying to login as espreto
 [+] 192.168.1.38:80 - Login successful
-[+] 192.168.1.38:80 - Vulnerable to Cross-Site Scripting the "Visual Form Builder 2.8.2" plugin for Wordpress
+[+] 192.168.1.38:80 - Vulnerable to Cross-Site Scripting the "Visual Form Builder 2.8.2" plugin for WordPress
 [+] Save in: /home/espreto/.msf4/local/43225550.html
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
