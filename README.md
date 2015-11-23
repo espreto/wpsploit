@@ -6,7 +6,7 @@ This repository is designed for creating and/or porting of specific exploits
 for WordPress using metasploit as exploitation tool.
 
 ##### Currently:</br>
-41 modules (15 exploits and 26 auxiliaries)
+42 modules (15 exploits and 27 auxiliaries)
 
 ##### Usage:</br>
 For the use of these modules, you can download them to the directory:
