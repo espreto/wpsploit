@@ -4,6 +4,7 @@
   Homepage: https://wordpress.org/plugins/store-locator/
   Source Code: https://downloads.wordpress.org/plugin/store-locator.3.11.zip
   References: https://wpvulndb.com/vulnerabilities/8241
+  Active Installs: 9,000+
 
 #### Vulnerable packages*
 
