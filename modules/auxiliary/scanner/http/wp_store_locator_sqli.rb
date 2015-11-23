@@ -33,6 +33,10 @@ class Metasploit4 < Msf::Auxiliary
     ))
   end
 
+  def check
+    check_plugin_version_from_readme('store-locator', '3.12')
+  end
+
   def run_host(ip)
     flag = Rex::Text.rand_text_alpha(5)
     # TODO: Change the SQL injection to greater coverage
