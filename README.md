@@ -22,7 +22,7 @@ https://github.com/espreto/wpsploit</br></br>
 Questions and suggestions can be sent to:</br>
 robertoespreto[at]gmail.com</br></br>
  
-##### Mentioned in a blog post by Rapid7/Metasploit: ["WordPress Exploitation Extravaganza"](https://community.rapid7.com/Rapid7_BlogPostDetail?id=a111400000AaxKdAAJ).
+##### Mentioned in a blog post by Rapid7/Metasploit: ["WordPress Exploitation Extravaganza"](https://community.rapid7.com/community/metasploit/blog/2015/06/05/weekly-metasploit-wrapup-and-were-back).
 
 
 Contributing
