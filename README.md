@@ -11,7 +11,14 @@ for WordPress using metasploit as exploitation tool.
 ##### Usage:</br>
 For the use of these modules, you can download them to the directory:
 ```
-# cd ~/.msf4/modules/
+# cd /tmp
+# git clone https://github.com/espreto/wpsploit
+# mv wpsploit/modules/auxiliary/ ~/.msf4/modules/
+# mv wpsploit/modules/exploits/ ~/.msf4/modules/
+# msfconsole
+or
+# cd /path/to/msf
+# ./msfconsole
 ```
 For details, check the official documentation of metasploit talking about ["Loading External Modules"](https://github.com/rapid7/metasploit-framework/wiki/Loading-External-Modules).</br>
 All modules will be created based on [WPScan Vulnerability Database - WPVDB] (https://wpvulndb.com/).</br></br>
