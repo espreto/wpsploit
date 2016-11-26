@@ -6,7 +6,7 @@ This repository is designed for creating and/or porting of specific exploits
 for WordPress using metasploit as exploitation tool.
 
 ##### Currently:</br>
-44 modules (15 exploits and 29 auxiliaries)
+45 modules (15 exploits and 30 auxiliaries)
 
 ##### Usage:</br>
 For the use of these modules, you can download them to the directory:
@@ -21,7 +21,7 @@ or
 # ./msfconsole
 ```
 For details, check the official documentation of metasploit talking about ["Loading External Modules"](https://github.com/rapid7/metasploit-framework/wiki/Loading-External-Modules).</br>
-All modules will be created based on [WPScan Vulnerability Database - WPVDB] (https://wpvulndb.com/).</br></br>
+All modules will be created based on [WPScan Vulnerability Database - WPVDB](https://wpvulndb.com/).</br></br>
 
 The public GitHub source repository can be found at:</br>
 https://github.com/espreto/wpsploit</br></br>
